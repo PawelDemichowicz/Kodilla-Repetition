@@ -8,6 +8,8 @@ public class KodillaCourseRepetitionApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(KodillaCourseRepetitionApplication.class, args);
-    }
 
+        Euklides euklides = new Euklides(100,12);
+        euklides.euklidesAlgorithm();
+    }
 }
