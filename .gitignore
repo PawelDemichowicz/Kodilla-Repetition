@@ -24,7 +24,8 @@ bin/
 *.iml
 *.ipr
 out/
-**/out/
+**/build
+**/out
 !**/src/main/**/out/
 !**/src/test/**/out/
 
