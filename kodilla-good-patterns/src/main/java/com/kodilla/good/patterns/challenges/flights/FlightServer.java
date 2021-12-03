@@ -14,6 +14,5 @@ public class FlightServer {
         String destination = scanner.nextLine();
 
         flightSearch.typeOfSearch(type,destination);
-        System.out.println("Have a nice flight!");
     }
 }
