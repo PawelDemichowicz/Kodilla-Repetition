@@ -9,9 +9,14 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class ReaderConfig {
+
+    private Book book;
+
     @Autowired
     @Qualifier("book1")
-    Book book;
+    public void setBook(Book book) {
+        this.book = book;
+    }
 
     @Bean
     public Reader getReader() {
