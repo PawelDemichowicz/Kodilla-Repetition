@@ -26,5 +26,6 @@ public class BigmacTestSuite {
         Assertions.assertEquals(3, howMayIngredients);
         Assertions.assertEquals("mayo", sauce);
         Assertions.assertTrue(bigmac.getIngredients().contains("tomato"));
+
     }
 }
